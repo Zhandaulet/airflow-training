@@ -1,0 +1,134 @@
+[2022-05-18 19:57:12,723] {scheduler_job.py:182} INFO - Started process (PID=13639) to work on /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:57:12,727] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/user_processing.py for tasks to queue
+[2022-05-18 19:57:12,728] {logging_mixin.py:104} INFO - [2022-05-18 19:57:12,728] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:57:12,750] {logging_mixin.py:104} WARNING - /home/airflow/sandbox/lib/python3.8/site-packages/airflow/providers/sqlite/operators/sqlite.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-05-18 19:57:12,754] {logging_mixin.py:104} INFO - [2022-05-18 19:57:12,753] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/user_processing.py", line 9, in <module>
+    with DAG('user_processing', schedule_intervals='@daily', default_args=default_args,catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervals'
+[2022-05-18 19:57:12,755] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:57:12,790] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/user_processing.py took 0.079 seconds
+[2022-05-18 19:57:47,013] {scheduler_job.py:182} INFO - Started process (PID=13695) to work on /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:57:47,014] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/user_processing.py for tasks to queue
+[2022-05-18 19:57:47,015] {logging_mixin.py:104} INFO - [2022-05-18 19:57:47,015] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:57:47,023] {logging_mixin.py:104} WARNING - /home/airflow/sandbox/lib/python3.8/site-packages/airflow/providers/sqlite/operators/sqlite.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-05-18 19:57:47,024] {logging_mixin.py:104} INFO - [2022-05-18 19:57:47,023] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/user_processing.py", line 9, in <module>
+    with DAG('user_processing', schedule_intervals='@daily', default_args=default_args,catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervals'
+[2022-05-18 19:57:47,024] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:57:47,044] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/user_processing.py took 0.034 seconds
+[2022-05-18 19:58:20,014] {scheduler_job.py:182} INFO - Started process (PID=13727) to work on /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:58:20,015] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/user_processing.py for tasks to queue
+[2022-05-18 19:58:20,016] {logging_mixin.py:104} INFO - [2022-05-18 19:58:20,016] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:58:20,022] {logging_mixin.py:104} WARNING - /home/airflow/sandbox/lib/python3.8/site-packages/airflow/providers/sqlite/operators/sqlite.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-05-18 19:58:20,023] {logging_mixin.py:104} INFO - [2022-05-18 19:58:20,022] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/user_processing.py", line 9, in <module>
+    with DAG('user_processing', schedule_intervals='@daily', default_args=default_args,catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervals'
+[2022-05-18 19:58:20,024] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:58:20,046] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/user_processing.py took 0.035 seconds
+[2022-05-18 19:58:52,933] {scheduler_job.py:182} INFO - Started process (PID=13809) to work on /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:58:52,934] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/user_processing.py for tasks to queue
+[2022-05-18 19:58:52,934] {logging_mixin.py:104} INFO - [2022-05-18 19:58:52,934] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:58:52,940] {logging_mixin.py:104} WARNING - /home/airflow/sandbox/lib/python3.8/site-packages/airflow/providers/sqlite/operators/sqlite.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-05-18 19:58:52,941] {logging_mixin.py:104} INFO - [2022-05-18 19:58:52,940] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/user_processing.py", line 9, in <module>
+    with DAG('user_processing', schedule_intervals='@daily', default_args=default_args,catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervals'
+[2022-05-18 19:58:52,941] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:58:52,961] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/user_processing.py took 0.033 seconds
+[2022-05-18 19:59:27,124] {scheduler_job.py:182} INFO - Started process (PID=13909) to work on /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:59:27,125] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/user_processing.py for tasks to queue
+[2022-05-18 19:59:27,125] {logging_mixin.py:104} INFO - [2022-05-18 19:59:27,125] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:59:27,133] {logging_mixin.py:104} WARNING - /home/airflow/sandbox/lib/python3.8/site-packages/airflow/providers/sqlite/operators/sqlite.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-05-18 19:59:27,135] {logging_mixin.py:104} INFO - [2022-05-18 19:59:27,134] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/user_processing.py", line 9, in <module>
+    with DAG('user_processing', schedule_intervals='@daily', default_args=default_args,catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervals'
+[2022-05-18 19:59:27,135] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 19:59:27,155] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/user_processing.py took 0.035 seconds
+[2022-05-18 20:00:02,020] {scheduler_job.py:182} INFO - Started process (PID=13941) to work on /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 20:00:02,021] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/user_processing.py for tasks to queue
+[2022-05-18 20:00:02,022] {logging_mixin.py:104} INFO - [2022-05-18 20:00:02,022] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 20:00:02,028] {logging_mixin.py:104} WARNING - /home/airflow/sandbox/lib/python3.8/site-packages/airflow/providers/sqlite/operators/sqlite.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-05-18 20:00:02,030] {logging_mixin.py:104} INFO - [2022-05-18 20:00:02,029] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/user_processing.py", line 9, in <module>
+    with DAG('user_processing', schedule_intervals='@daily', default_args=default_args,catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervals'
+[2022-05-18 20:00:02,030] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 20:00:02,063] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/user_processing.py took 0.047 seconds
+[2022-05-18 20:00:36,753] {scheduler_job.py:182} INFO - Started process (PID=13973) to work on /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 20:00:36,755] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/user_processing.py for tasks to queue
+[2022-05-18 20:00:36,757] {logging_mixin.py:104} INFO - [2022-05-18 20:00:36,757] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 20:00:36,769] {logging_mixin.py:104} WARNING - /home/airflow/sandbox/lib/python3.8/site-packages/airflow/providers/sqlite/operators/sqlite.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2022-05-18 20:00:36,771] {logging_mixin.py:104} INFO - [2022-05-18 20:00:36,770] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/user_processing.py", line 9, in <module>
+    with DAG('user_processing', schedule_intervals='@daily', default_args=default_args,catchup=False) as dag:
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervals'
+[2022-05-18 20:00:36,772] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/user_processing.py
+[2022-05-18 20:00:36,793] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/user_processing.py took 0.044 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
